@@ -1,3 +1,7 @@
+body {
+  font-family: A !important;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todoCard {
+  transition: all 0.2s !important;
+}
+
+.todoCard:hover {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.iconButtona {
+  transition: all 0.2s !important;
+}
+
+.iconButtona:hover {
+  background-color: #c5c5c5 !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+/*======FONTS=====*/
+@font-face {
+  font-family: A;
+  src: url("/public/font/Alexandria-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: A;
+  src: url("/public/font/Alexandria-Light.ttf");
+  font-weight: 1 00;
 }
